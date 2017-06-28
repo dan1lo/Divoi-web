@@ -1,0 +1,148 @@
+/*
+body {
+  background-color: #ebeae9;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+#lista{
+	padding: 15px 15px;
+}
+
+nav { 
+  width: 650px;
+  margin: 1px auto 0 auto;
+  float: right;
+  padding: 35px 0 0 0;} 
+
+#menu ul {
+	float: right;
+	padding:5px 14px 6px 15px;
+	margin:0px;
+	background-color:#408080;
+	list-style:none;
+}
+#menu ul li { 
+	display: inline; 
+	}
+
+
+
+#menu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	position: relative;
+	float: right;
+ 
+	visual do link 
+	background-color:#408080;
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom:3px solid #408080;
+}
+#menu ul li a:hover {
+	background-color:#326363;
+	color: #ffffff;
+	border-bottom:3px solid #53a6a6;
+}
+
+a{
+	color: black;
+	text-decoration:none;
+	display: inline;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: black;
+}*/
+
+
+
+ 
+body {
+  background-color: #ebeae9;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+nav { 
+	position:relative;
+  	left: 50%;
+  	width: 100%;}
+#navegacao{
+	background-color:#408080;
+	padding: 0px 0px 0px 0px;
+	width:100%;
+} 
+
+#menu ul li { 
+	display: inline; 
+	}
+
+
+
+#menu ul li a {
+	padding: 6px 14px 6px 15px;
+	display: inline-block;
+	visual do link 
+	background-color:#408080;
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom:3px solid #408080;
+}
+#menu ul li a:hover {
+	background-color:#326363;
+	color: #ffffff;
+	border-bottom:3px solid #53a6a6;
+}
+
+a{
+	color: black;
+	text-decoration:none;
+	display: inline;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: #000000;
+}
+
+/* Nav
+
+
+ 
+ul#nav { 
+  float: right;
+  margin: 25px 10px 0 0;}
+
+ul#nav li a {
+  font: normal 150% 'News Cycle', sans-serif;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  z-index: 10;
+  display: block;
+  float: left;
+  height: 30px;
+  padding:5px 14px 6px 15px;
+  position: relative;
+  overflow: hidden;}
+
+ul#nav ul { 
+  margin-top: 40px;
+  padding-bottom: 10px;}
+  
+ ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;} */
+ 
+*/
+ 

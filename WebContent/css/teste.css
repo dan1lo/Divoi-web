@@ -1,0 +1,172 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  background: #ebeae9;
+  font-family: 'Titillium Web', sans-serif;
+}
+.form {
+  background: #ffffff;
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  color: #000000;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #408080;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+a:hover {
+  color: #408080;
+}
+
+label {
+  left: 13px;
+  color: #000000;
+   transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 22px;
+}
+
+label .req {
+  margin: 2px;
+  color: #408080;
+}
+
+label.active {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+label.active .req {
+  opacity: 0;
+}
+
+label.highlight {
+  color: #ffffff;
+}
+
+input, textarea,select {
+  font-size: 22px;
+  display: block;
+  width: 99%;
+  height: 100%;
+  padding: 5px 2px 5px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #000000;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: #408080;
+}
+
+textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+.field-wrap {
+  position: relative;
+  margin: 10px;
+}
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  margin: 10px 0px 0px 0px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #408080;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+  background: ;
+}
+
+.button-block {
+  display: block;
+  width: 99.7%;
+}
+
+
+.home{
+  text-align:center;
+  font-family: 'Titillium Web', sans-serif;
+  color:#408080;
+   margin: 50px 0px 40px;
+}
+
+
+.forum{
+  background:#408080;
+  padding:5px;
+  margin: 5px;
+  list-style:none;
+}
+
+.forumUl{
+  margin:0px;
+  padding:0px;
+}
+
+.forum a{
+    padding: 0px 90% 0px 0px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.forum a:hover{
+	text-decoration: none;
+}
+.forum:hover{
+  background:#326363;
+}
+
+.imagem{
+  position:absolute;
+  left:58%;
+  top:90px;
+}
+
+#imagemLink{
+  position:absolute;
+  z-index:10;
+  left:63%;
+  top:300px;
+}
+.audio{
+  position:absolute;
+  z-index:10;
+  left:52%;
+  top:390px;
+}
+#audioLink{
+  position:absolute;
+  z-index:10;
+  left:63%;
+  top:435px;
+}

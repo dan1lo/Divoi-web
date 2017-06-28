@@ -1,0 +1,235 @@
+@CHARSET "ISO-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+  background-color: #ebeae9;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 620px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+   color: #000000;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+.table-title h2 {
+   color: #000000;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 620px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#ffffff;;
+  background:#408080;
+  border-bottom:4px solid #53a6a6;
+  border-right: 1px solid #53a6a6;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #53a6a6;
+  border-bottom-: 1px solid #53a6a6;
+  color:#000000;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#408080;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+tr:hover a {
+  background:#408080;
+  color:#FFFFFF;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#ffffff;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#408080;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #53a6a6;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+
+.kc_fab_main_btn{
+  background-color:#53a6a6;
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  background:#53a6a6;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:46px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.3s;  
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  padding:0px;
+  margin:0px;
+  position:relative;
+		bottom: 0px;
+		float:right;}
+
+.kc_fab_main_btn:focus {
+  transform:scale(1.1);
+  transform:rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#teste{
+  display: block;
+  margin: auto;
+  max-width: 620px;
+  padding:20px;
+  width: 100%;
+	
+}
+
+.table-listagem{
+  background-color: white;
+  display: block;
+  margin: auto;
+  max-width: 620px;
+  padding:20px;
+  width: 100%;
+  border-radius: 15px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  
+
+}
+
+.botao{
+	display: inline;	
+}
+
+
+.botao a {
+	padding: 6px 14px 6px 15px;
+	display: inline-block; 
+	background-color:#408080;
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom:3px solid #408080;
+	margin:20px 0px 0px 25%;
+}
+.botao a:hover {
+	background-color:#326363;
+	color: #ffffff;
+	border-bottom:3px solid #53a6a6;
+	text-decoration: none;
+}
+
+.botao a:visited {
+    color: white;
+}
+#linkDialeto{
+	text-align:center;
+	color:#408080;
+}
+
